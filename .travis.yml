@@ -7,7 +7,6 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   bucket: prueba-marco
   revision_type: github
-  application: travis-ec2
   deployment_group: 4yopping
   on:
     repo: 4yopping/travis-ec2

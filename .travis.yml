@@ -8,5 +8,6 @@ deploy:
   bucket: prueba-marco
   revision_type: github
   deployment_group: 4yopping
+  application: TravisCI
   on:
     repo: 4yopping/travis-ec2
